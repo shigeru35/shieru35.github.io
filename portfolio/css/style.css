@@ -1,0 +1,181 @@
+
+/*----------common----------*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+body{
+  font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+  font-size: 16px;
+  color:#502828;
+}
+
+/*----------content----------*/
+
+#container{
+    height: 600px; 
+}
+
+header{
+  height: 100px ;
+  background-color: #f7f9fc;
+  line-height: 100px;
+  padding-left: 5%;
+  font-weight: 400;
+  font-size: 140%;
+  letter-spacing: 7px;
+}
+
+.drawer-nav{
+  z-index: 1001;
+  letter-spacing: 5px;
+  text-decoration: none;
+}
+
+
+.header__nav{
+  width: 100%;
+  background-color: blue;
+  z-index: 1000;
+  color: #FAFAFA;
+
+}
+
+.header__menu{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header__menu--item{
+  width: 15%;
+  margin: 0 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: left;
+  text-align: center;
+  list-style: none;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+
+.header__menu--item:hover{
+  background-color: skyblue;
+  transition: 1.5s;
+}
+
+.header__menu--item a{
+  text-decoration: none;
+  color: #FAFAFA;
+}
+
+.header__menu--item a span{
+  display: block;
+  font-size: 11px;
+  letter-spacing: 2px;
+
+}
+
+.cnt1{
+  width: 100%;
+}
+
+
+.cnt__title{
+  margin-bottom: 10px;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+
+.cnt__title::after{
+  width: 100px;
+  margin: 20px 0;
+  display: block;
+  border-top: 1px solid #502828;
+  content: '';
+}
+
+
+.cnt__title span{
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+
+.cnt__article--heading{
+  font-weight: 100;
+  font-size: 28px;
+  margin: 40px 0;
+}
+
+.cnt__article--heading--copy{
+  line-height: 2;
+  font-size: 14px;
+}
+
+.cnt1__left{
+  float: left;
+  width: 40%;
+  padding: 7% 5%;
+  background-color: #f7f9fc; 
+}
+
+.cnt1__right{
+  float: left;
+  width: 50% ;
+  height: 525px;
+  background-image: url(../img/slider2.jpg);
+  background-size: cover;
+}
+
+.cnt2__left{
+  float: left;
+  width: 50% ;
+  height: 523px;
+  background-image: url(../img/slider3.jpg);
+  background-size: cover;
+}
+
+.cnt2__right{
+  float: left;
+  width: 40%;
+  padding: 7% 5%;
+}
+
+.cnt3__left{
+  float: left;
+  width: 40%;
+  padding: 7% 5%;
+  background-color: #f7f9fc; 
+
+}
+
+.cnt3__right{
+  float: left;
+  width: 50% ;
+  height: 525px;
+  background-image: url(../img/slider4.jpg);
+  background-size: cover;
+}
+
+.cnt4{
+  padding: 7% 5%;
+  background-color: red; 
+
+}
+
+strong{
+  background: linear-gradient(transparent 40%, #ffff66 40%);
+}
+
+
+
